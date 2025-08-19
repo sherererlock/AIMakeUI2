@@ -1,0 +1,262 @@
+{
+  "name": "StartWindow",
+  "type": "image",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 1080
+  },
+  "resource": null,
+  "children": [
+    {
+      "name": "Background",
+      "type": "image",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "resource": null,
+      "children": []
+    },
+    {
+      "name": "PopupDialog",
+      "type": "image",
+      "position": {
+        "x": 446,
+        "y": 130,
+        "width": 1025,
+        "height": 819
+      },
+      "resource": "G公共组件/T弹窗/bg_tanchuang1.png",
+      "children": [
+        {
+          "name": "TitleArea",
+          "type": "image",
+          "position": {
+            "x": 446,
+            "y": 130,
+            "width": 1025,
+            "height": 105
+          },
+          "resource": "G公共组件/T弹窗/bg_diwen.png",
+          "children": [
+            {
+              "name": "LevelText",
+              "type": "text",
+              "position": {
+                "x": 841,
+                "y": 163,
+                "width": 240,
+                "height": 45
+              },
+              "resource": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "CloseButton",
+          "type": "button",
+          "position": {
+            "x": 1385,
+            "y": 162,
+            "width": 46,
+            "height": 48
+          },
+          "resource": "G公共组件/A按钮/btn_close.png",
+          "children": []
+        },
+        {
+          "name": "TargetArea",
+          "type": "image",
+          "position": {
+            "x": 559,
+            "y": 260,
+            "width": 803,
+            "height": 173
+          },
+          "resource": "G公共组件/T弹窗/bg_mubiaodi.png",
+          "children": [
+            {
+              "name": "StarIcon",
+              "type": "image",
+              "position": {
+                "x": 816,
+                "y": 279,
+                "width": 290,
+                "height": 96
+              },
+              "resource": "G公共组件/T图标/icon_zuanshi.png",
+              "children": []
+            },
+            {
+              "name": "TargetNumber4",
+              "type": "text",
+              "position": {
+                "x": 853,
+                "y": 379,
+                "width": 28,
+                "height": 36
+              },
+              "resource": null,
+              "children": []
+            },
+            {
+              "name": "TargetNumber2",
+              "type": "text",
+              "position": {
+                "x": 1038,
+                "y": 379,
+                "width": 24,
+                "height": 36
+              },
+              "resource": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ItemsArea",
+          "type": "image",
+          "position": {
+            "x": 509,
+            "y": 512,
+            "width": 782,
+            "height": 194
+          },
+          "resource": null,
+          "children": [
+            {
+              "name": "Item1",
+              "type": "button",
+              "position": {
+                "x": 509,
+                "y": 512,
+                "width": 194,
+                "height": 194
+              },
+              "resource": "Res/sprites/icon_tigouyuan.png",
+              "children": [
+                {
+                  "name": "CheckMark",
+                  "type": "image",
+                  "position": {
+                    "x": 571,
+                    "y": 568,
+                    "width": 71,
+                    "height": 79
+                  },
+                  "resource": "G公共组件/T图标/icon_gou.png",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Item2",
+              "type": "button",
+              "position": {
+                "x": 745,
+                "y": 512,
+                "width": 194,
+                "height": 194
+              },
+              "resource": "Res/sprites/icon_orange_yuan.png",
+              "children": [
+                {
+                  "name": "LockIcon",
+                  "type": "image",
+                  "position": {
+                    "x": 807,
+                    "y": 568,
+                    "width": 71,
+                    "height": 79
+                  },
+                  "resource": "Res/sprites/icon_lock.png",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Item3",
+              "type": "button",
+              "position": {
+                "x": 982,
+                "y": 512,
+                "width": 194,
+                "height": 194
+              },
+              "resource": "Res/sprites/bg_lock.png",
+              "children": [
+                {
+                  "name": "LockIcon",
+                  "type": "image",
+                  "position": {
+                    "x": 1044,
+                    "y": 568,
+                    "width": 71,
+                    "height": 79
+                  },
+                  "resource": "Res/sprites/icon_lock.png",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Item4",
+              "type": "button",
+              "position": {
+                "x": 1218,
+                "y": 512,
+                "width": 194,
+                "height": 194
+              },
+              "resource": "Res/sprites/bg_lock.png",
+              "children": [
+                {
+                  "name": "LockIcon",
+                  "type": "image",
+                  "position": {
+                    "x": 1280,
+                    "y": 568,
+                    "width": 71,
+                    "height": 79
+                  },
+                  "resource": "Res/sprites/icon_lock.png",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PlayButton",
+          "type": "button",
+          "position": {
+            "x": 632,
+            "y": 788,
+            "width": 657,
+            "height": 125
+          },
+          "resource": "G公共组件/A按钮/btn_lv.png",
+          "children": [
+            {
+              "name": "PlayText",
+              "type": "text",
+              "position": {
+                "x": 879,
+                "y": 825,
+                "width": 166,
+                "height": 49
+              },
+              "resource": null,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
